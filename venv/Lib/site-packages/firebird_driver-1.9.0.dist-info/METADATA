@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: firebird-driver
+Version: 1.9.0
+Summary: Firebird driver for Python
+Author-email: Pavel Cisar <pcisar@users.sourceforge.net>
+License: MIT License
+        
+        Copyright (c) 2020 FirebirdSQL
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Home, https://github.com/FirebirdSQL/python3-driver
+Project-URL: Documentation, https://firebird-driver.rtfd.io
+Project-URL: Bug Reports, https://github.com/FirebirdSQL/python3-driver/issues
+Project-URL: Funding, https://www.firebirdsql.org/en/donate/
+Project-URL: Source, https://github.com/FirebirdSQL/python3-driver
+Keywords: Firebird,RDBMS,driver
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Software Development
+Classifier: Topic :: Database
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: firebird-base (>=1.5.0)
+Requires-Dist: python-dateutil (>=2.8)
+
+==========================
+Firebird driver for Python
+==========================
+
+This package provides official Python Database API 2.0-compliant driver for the open
+source relational database Firebird®. In addition to the minimal feature set of
+the standard Python DB API, this driver also exposes the new (interface-based)
+client API introduced in Firebird 3, and number of additional extensions and
+enhancements for convenient use of Firebird RDBMS.
+
+Requires: Firebird 3+, Python 3.8+
+
+See firebird-lib package for optional extensions to this driver.

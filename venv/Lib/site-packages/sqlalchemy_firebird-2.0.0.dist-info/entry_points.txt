@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+firebird = sqlalchemy_firebird.firebird:FBDialect_firebird
+firebird.fdb = sqlalchemy_firebird.fdb:FBDialect_fdb
+firebird.firebird = sqlalchemy_firebird.firebird:FBDialect_firebird
